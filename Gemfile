@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.0.0'
 
 gem 'rails', '4.0.0.rc1'    
-gem 'sass-rails', '~> 4.0.0.rc1'    
+gem 'sass-rails', '4.0.0.rc1'    
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
@@ -30,8 +30,6 @@ group :production do
   gem 'unicorn' # make sure you follow installation instructions for this gem
   gem 'hooves'
   gem 'rails_12factor'
-  gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
-  gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
 end
 
 group :doc do
