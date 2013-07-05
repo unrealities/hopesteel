@@ -38,7 +38,7 @@ group :production do
 end
 
 group :assets do
-  gem 'twitter-bootstrap-rails'
+  gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 end
 
 # Use ActiveModel has_secure_password
