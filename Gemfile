@@ -10,7 +10,9 @@ gem 'jquery-rails'
 gem 'turbolinks'    
 gem 'jbuilder', '~> 1.0.1'
 gem 'better_errors'
-gem 'twitter-bootstrap-rails'
+gem "therubyracer"
+gem "less-rails"
+gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 
 
 # The asset_sync gem is WELL worth using
