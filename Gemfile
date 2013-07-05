@@ -10,8 +10,6 @@ gem 'jquery-rails'
 gem 'turbolinks'    
 gem 'jbuilder', '~> 1.0.1'
 gem 'better_errors'
-gem "therubyracer"
-gem "less-rails"
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
 
 
@@ -29,6 +27,7 @@ group :production do
   gem 'pg' # dont want sqlite in production
   gem 'unicorn' # make sure you follow installation instructions for this gem
   gem 'hooves'
+  gem 'rails_12factor'
   gem 'rails_log_stdout',           github: 'heroku/rails_log_stdout'
   gem 'rails3_serve_static_assets', github: 'heroku/rails3_serve_static_assets'
 end
