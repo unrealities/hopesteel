@@ -36,7 +36,7 @@
   </head>
   <body>
 
-    <div class="navbar navbar-fluid-top">
+    <div class="navbar navbar-fixed-top" style="position:fixed">
       <div class="navbar-inner">
         <div class="container-fluid">
           <a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
@@ -44,41 +44,76 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">Hopesteel</a>
+          <a class="brand" href="#">HopeSteel</a>
           <div class="container-fluid nav-collapse">
             <ul class="nav">
-              <li><%= link_to "Link1", "/path1"  %></li>
-              <li><%= link_to "Link2", "/path2"  %></li>
-              <li><%= link_to "Link3", "/path3"  %></li>
+              <li><%= link_to "Who We Are", "/path1"  %></li>
+              <li><%= link_to "Services", "/path2"  %></li>
+              <li><%= link_to "Doctors", "/path3"  %></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
       </div>
     </div>
+    
+    <div class="heading-text">
+      
+      <h1 class="animated flipInY delay1">Knowledge. <span>Experience.</span> Certified.</h1>
+      <div class="span10 offset1 animated fadeInLeftBig delay2">
+        <%=image_tag("eeg_gray.png", :class=>"animated fadeInUpBig delay3 jumbotron-img",alt: "")%>
+        
+        
+      </div><!--/span10-->
+      <div class="clear"></div>         
+              
+    </div><!--/heading text-->
 
-    <div class="container-fluid">
-      <div class="row-fluid">
-        <div class="span3">
-          <div class="well sidebar-nav">
-            <ul class="nav nav-list">
-              <li class="nav-header">Sidebar</li>
-              <li><%= link_to "Link1", "/path1"  %></li>
-              <li><%= link_to "Link2", "/path2"  %></li>
-              <li><%= link_to "Link3", "/path3"  %></li>
-            </ul>
-          </div><!--/.well -->
-        </div><!--/span-->
-        <div class="span9">
-          <%= bootstrap_flash %>
-          <%= yield %>
+    <div class="container">
+      <header class="jumbotron subhead" id="overview">
+        <div class="row">
+          <div class="span12">
+          </div>
         </div>
-      </div><!--/row-->
+      </header>
+    </div>
 
-      <footer>
-        <p>&copy; Company 2013</p>
-      </footer>
+    <div class="three">
+      <div class="container">
+        <div class="row">
+          <div class="span4">
+            <i class="fontawesome-icon medium circle-center icon-desktop"></i>
+            <h4>Intraoperative Monitoring</h4>
+            <p>Physiologists you can rely on. Our professional staff can identify and assist with techinical issues to ensure a successful surgery.</p>
+          </div><!--/span4-->
+          <div class="span4">
+            <i class="fontawesome-icon medium circle-center icon-certificate"></i>
+            <h4>Experience</h4>
+            <p>We are CNIM certified with years of operating room experience.</p>
+          </div><!--/span4-->
+          <div class="span4">
+            <i class="fontawesome-icon medium circle-center icon-globe"></i>
+            <h4>Remote Monitoring</h4>
+            <p>We are licensed and certified to assist in interpreting results outside of the operating room in real-time as well as post-operatively.</p>
+          </div><!--/span4-->
+        </div><!--/row-->
+      </div><!--/container-->
+    </div><!--/three-->
 
-    </div> <!-- /container -->
+    <div class="white">
+      <div class="container">
+         <div class="row">
+              <div class="span12">
+                <div class="call-out">
+                  <div class="pull-left">
+                    <h4>Add one of our highly skilled professionals to your team today.</h4> 
+                  </div><!--/pull left-->
+                  <div class="pull-right">
+                    <a class="callout-btn" href="#">Contact Us</a>
+                  </div><!--/pull right-->
+                  <div class="clear"></div>
+                </div><!--/call out-->
+              </div><!--/call out-->
+            </div><!--/row12-->
 
     <!-- Javascripts
     ================================================== -->

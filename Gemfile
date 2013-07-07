@@ -2,8 +2,7 @@ source 'https://rubygems.org'
 
 ruby '2.0.0'
 
-gem 'rails', '4.0.0.rc1'    
-gem 'sass-rails', '4.0.0.rc1'    
+gem 'rails', '4.0.0.rc1'  
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
@@ -11,9 +10,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.0.1'
 gem 'better_errors'
 gem 'therubyracer'
-gem 'less-rails'
+gem 'less-rails-bootstrap'
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
-
 
 # The asset_sync gem is WELL worth using
 # but you should read more about it before deciding
@@ -27,7 +25,7 @@ end
 
 group :production do
   gem 'pg' # dont want sqlite in production
-  gem 'unicorn' # make sure you follow installation instructions for this gem
+  gem 'unicorn'
   gem 'hooves'
   gem 'rails_12factor'
 end
