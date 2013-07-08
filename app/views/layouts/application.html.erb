@@ -44,12 +44,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">HopeSteel</a>
+          <a class="brand" href="#"><%=image_tag("hopesteel_logo_teal_gold.png", :class=>"brand_logo",alt: "eeg electrodes")%></a>
           <div class="container-fluid nav-collapse">
             <ul class="nav">
-              <li><%= link_to "Who We Are", "/path1"  %></li>
-              <li><%= link_to "Services", "/path2"  %></li>
-              <li><%= link_to "Doctors", "/path3"  %></li>
+              <li><%= link_to "Services", "#services"  %></li>
+              <li><%= link_to "About", "#about"  %></li>
+              <li><%= link_to "Contact", "#contact"  %></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -58,9 +58,9 @@
     
     <div class="heading-text">
       
-      <h1 class="animated flipInY delay1">Knowledge. <span>Experience.</span> Certified.</h1>
+      <h1 class="animated flipInY delay1">Knowledgable. <span>Experienced.</span> Certified.</h1>
       <div class="span10 offset1 animated fadeInLeftBig delay2">
-        <%=image_tag("eeg_gray.png", :class=>"animated fadeInUpBig delay3 jumbotron-img",alt: "")%>
+        <%=image_tag("eeg_555.png", :class=>"animated rollIn delay5 jumbotron-img",alt: "eeg electrodes")%>
         
         
       </div><!--/span10-->
@@ -79,7 +79,7 @@
 
     <div class="three">
       <div class="container">
-        <div class="row">
+        <div class="row"  id="services">
           <div class="span4">
             <i class="fontawesome-icon medium circle-center icon-desktop"></i>
             <h4>Intraoperative Monitoring</h4>
@@ -114,6 +114,20 @@
                 </div><!--/call out-->
               </div><!--/call out-->
             </div><!--/row12-->
+          </div>
+        </div>
+
+    <div class="about" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="span5"><h1>Employee Spotlight</h1></div>
+          <div class="span5">
+            <%=image_tag("amanda_2.png", :class=>"amanda",alt: "amanda szymanski")%>
+          </div>
+          <div class="span2">&nbsp;</div>
+        </div>
+      </div>
+    </div>
 
     <!-- Javascripts
     ================================================== -->
