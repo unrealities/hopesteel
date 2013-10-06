@@ -12,6 +12,7 @@ gem 'better_errors'
 gem 'therubyracer'
 gem 'less-rails-bootstrap'
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+gem 'newrelic_rpm'
 
 # The asset_sync gem is WELL worth using
 # but you should read more about it before deciding
