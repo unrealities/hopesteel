@@ -1,3 +1,3 @@
 ## README
 
-Sinatra app for HopeSteel.io
+Sinatra app for HopeSteel.io website
